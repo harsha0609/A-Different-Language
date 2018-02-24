@@ -1,0 +1,10 @@
+<expr> := [ <op> <expr> <expr> ] | 
+                 <symbol> | <value>
+<symbol> := [a-zA-Z]+
+<value> := [0-9]+
+<op> := ‘+’ | ‘*’ | ‘==‘ | ‘<‘
+<prog> := [ = <symbol> <expr> ] |
+          [ ; <prog> <prog> ] |
+          [ if <expr> <prog> <prog> ] |
+          [ while <expr> <prog> ] |
+          [ return <expr> ]
