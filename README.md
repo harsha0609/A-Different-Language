@@ -27,7 +27,6 @@ To  run this program use:<br>
  ./runit
 ```
 ```
-To clear all the object files and the other generated files use:<br>
-```
+To clear all the object files and the other generated files use:
  ./clear
 ```
